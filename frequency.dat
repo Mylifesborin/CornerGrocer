@@ -1,0 +1,16 @@
+/*
+ * frequency.dat
+ *
+ *  Date: June 25, 2024
+ *  Author: Yakuba Conde
+ */
+
+class ItemTracker {
+private:
+    map<string, int> itemFrequency;
+    string dataFilePath;
+
+public:
+    ItemTracker() {
+        dataFilePath = "frequency.dat";
+    }
